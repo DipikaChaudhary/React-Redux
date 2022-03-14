@@ -1,0 +1,8 @@
+.redux-container > button {
+  padding: 10px 12px;
+  font-size: 1.2rem;
+  background: linear-gradient(191.74deg, #f46b45 1.03%, #f09819 97.09%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+}

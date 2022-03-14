@@ -4,8 +4,8 @@ import { buyFruit } from '../Redux'
 
 function FruitContainer(props) {
     return (
-        <div>
-            <h1> Availavle Fruits Quantity - {props.numOfFruits} kg</h1>
+        <div className='redux-container'>
+            <h1> Available  Fruits Quantity - {props.numOfFruits} kg</h1>
             <button onClick={props.buyFruit}>Buy Fruits</button>
         </div>
     )
